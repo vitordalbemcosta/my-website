@@ -191,8 +191,16 @@ a {
         padding: 50px;
     }
     .footer-bottom {
-        margin: 20px;
+        margin: 250px;
+        display: flex;
+        justify-content: center;
     }
+    .information p {
+        margin: 80px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 5px;
+   }
 }
 footer {
     height: 500px;
@@ -204,3 +212,12 @@ h3 {
     text-align: center;
     margin: 35px 0 20px 0 !important;
   }
+.information p {
+    margin: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 25px;
+}
+.sub-section-alternative h2 {
+    margin-top: 200px;
+}
