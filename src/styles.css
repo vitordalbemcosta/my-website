@@ -1,13 +1,14 @@
-body{
+* {
     font-family: 'Poppins', sans-serif;
 }
 section {
     height: 500px;
     background-color: white;
-
-    
-
 }
+.nav-bar-list {
+    margin: 4vh;
+}
+
 .hero {
     height: 100vh;
     background-color: #909dd8ad;
@@ -86,6 +87,7 @@ p{
 
 .socials {
     padding-bottom: 200px;
+    padding-right: 20px;
 }
 
 .logo{
@@ -107,8 +109,8 @@ p{
     padding: 80px;
 }
 .headshot {
-    width: 350px;
-    border-radius: 150px;
+    width: 30vw;
+    border-radius: 100vh;
 }
 .headshot-container {
     display: flex;
@@ -233,4 +235,19 @@ h3 {
 }
 .col-name {
     height: 3vh;
+}
+.last-button {
+    padding-bottom: 45px;
+}
+.information {
+    padding-left: 40px;
+}
+.photo-middle {
+    margin-top: 20vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
