@@ -116,7 +116,6 @@ p{
 }
 .project-card {
     width: 300px;
-    height: 200px;
     box-shadow: 5px 5px 20px rgb(206, 189, 189);
     margin: 0px;
     
@@ -131,11 +130,20 @@ p{
         display: flex;
         flex-wrap: wrap;
     }
+    .form-control {
+    width: 80%;
+}
 }
 .project-image {
     margin-top: 25px;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
 }
 hr {
     margin-left: 20px;
@@ -185,13 +193,13 @@ a {
         display: none;
     }
     footer {
-        height: 100px;
+        height: 500px;
         color: rgb(11, 9, 9);
         text-align: center;
         padding: 50px;
     }
     .footer-bottom {
-        margin: 250px;
+        margin-top: 500px;
         display: flex;
         justify-content: center;
     }
@@ -201,23 +209,28 @@ a {
         text-justify: inter-word;
         font-size: 5px;
    }
+   
 }
-footer {
-    height: 500px;
-
+.footer-bottom {
+    height: 100px;
     text-align: center;
-    padding: 81px;
 }
 h3 {
     text-align: center;
     margin: 35px 0 20px 0 !important;
   }
 .information p {
-    margin: 80px;
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 25px;
+    margin-right: 25px;
 }
 .sub-section-alternative h2 {
     margin-top: 200px;
+}
+.sub-section-alternative {
+    margin-top: 100px;
+}
+.form-control {
+    width: 60%;
+}
+.col-name {
+    height: 2.5vh;
 }
